@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ <html lang="id">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1 Font End - Bootcamp Neo Telemetri</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+      <div class="container">
+         <div class="card" id="profileCard">
+            <h2>Selamat Datang di Web Saya</h2>
+            <p>Silakan berinteraksi dengan fitur di bawah ini.</P>
+
+            <button id="btnGantiWarna" class="btn-secondary">Ubah Warna Kartu</button>
+         
+            <hr>
+
+            <div class="bio-section">
+               <button id="btnTampilBio">Tampilkan Biodata Saya</button>
+               <div id="bioKonten" class="hidden">
+                  <p><strong>Nama:</strong> Aiva Mulyanda</p>
+                  <p><strong>Umur:</strong> 18 tahun</p>
+                  <p><strong>Jurusan:</strong> Statistika dan Sains Data</p>
+               </div>
+            </div>
+
+            <hr>
+            <div class="list-section">
+               <h3>Daftar Rencana Belajar (Target)</h3>
+               <div class="input-group">
+                  <input type="text" id="inputTarget" placeholder="Ketik target baru....">
+                  <button id="btnTambahTarget">Tambah</button>
+               </div>
+               <ul id="daftarTarget">
+                  <li>Belajar HTML & CSS Dasar</li>
+                  <li>Paham JavaScript DOM</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+      <script src="script.js"></script>
+ </body>
+ </html>
